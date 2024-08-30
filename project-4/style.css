@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary:#292c33;
+    /* --secondary:; */
+}
+
+.navbar{
+    display: flex;
+    height: 10vh;
+    background-color: var(--primary);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar img{
+    margin-left: 10%;
+    height: 40%;
+    cursor: pointer;
+}
+
+.navbar svg{
+    height: 40%;
+    margin-right: 10%;
+    cursor: pointer;
+}
+
+.first{
+    height: 120vh;
+    background-image: url("./assets/group-business-people-having-meeting23.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.8);
+}
+
+.first-content{
+    margin-top: 13.7%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.first-content img{
+    height: 20%;
+    position: absolute;
+    z-index: 100;
+}
