@@ -1,11 +1,12 @@
 import React from 'react'
 
-function ProfileCard({name,age,location}) {
+function ProfileCard({item}) {
   return (
-    <div style={{height:"20vh", width:"20vw" ,backgroundColor:"gray" ,textAlign:"center"}}>
-        <h1>{name}</h1>
-        <p>{age}</p>
-        <p>{location}</p>
+    <div style={{width:"20vw" ,backgroundColor:"gray" ,textAlign:"center"}}>
+        <h1>{item.category}</h1>
+        <img src={item.image} alt=""  style={{height:"30%",width:"30%"}}/>
+        <p>{item.price}</p>
+        <p>{item.description}</p>
 
     </div>
   )
